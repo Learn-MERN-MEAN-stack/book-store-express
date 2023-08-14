@@ -1,12 +1,12 @@
 {
   "env": {
     "node": true,
-    "commonjs": true,
     "es2021": true
   },
-  "extends": ["eslint:recommended", "prettier"],
+  "extends": ["eslint:recommended", "prettier", "plugin:json/recommended"],
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-  "rules": {}
+  "rules": {},
+  "ignorePatterns": ["!.*"]
 }

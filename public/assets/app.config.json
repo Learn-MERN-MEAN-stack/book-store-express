@@ -1,0 +1,9 @@
+{
+  "production": false,
+  "developmentConfig": {
+    "port": 3000
+  },
+  "productionConfig": {
+    "port": 3000
+  }
+}
